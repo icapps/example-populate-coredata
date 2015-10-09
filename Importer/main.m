@@ -13,12 +13,14 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        // Change the project root to match your project root.
+        NSString *projectRoot = [@"~/Desktop/Preloaded Database" stringByExpandingTildeInPath];
+        
         NSLog(@"🚀 Importing database started.");
         
         // Prepare database.
         NSFileManager* fileManager = [NSFileManager defaultManager];
-        NSString *path = [@"~/Desktop/preloaded.sqlite" stringByExpandingTildeInPath];
-
+        NSString *path = [projectRoot stringByAppendingPathComponent:@"Preloaded Database/Database/Preloaded.sqlite"];
         // Removing file if needed.
         if ([fileManager fileExistsAtPath:path]) {
             if ([fileManager removeItemAtPath:path error:nil]) {
@@ -28,7 +30,28 @@ int main(int argc, const char * argv[]) {
         
         // Setup MagicalRecord.
         [MagicalRecord setLoggingLevel:MagicalRecordLoggingLevelOff];
-        [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreAtURL:[NSURL fileURLWithPath:path]];
+        
+        NSManagedObjectModel *model = [NSManagedObjectModel MR_defaultManagedObjectModel];
+        NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
+
+        NSDictionary *options = @{
+                                  NSMigratePersistentStoresAutomaticallyOption: @YES,
+                                  NSInferMappingModelAutomaticallyOption: @YES,
+                                  NSSQLitePragmasOption: @{ @"journal_mode" : @"DELETE" }
+                                  };
+        
+        NSError *error = nil;
+        NSPersistentStore *store =[coordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                            configuration:nil
+                                                                      URL:[NSURL fileURLWithPath:path]
+                                                                  options:options
+                                                                    error:&error];
+        if (!store || error) {
+            NSLog(@"Error setting up user store:%@ for %@", [error localizedDescription], path);
+            exit (-1);
+        }
+        [NSPersistentStoreCoordinator MR_setDefaultStoreCoordinator:coordinator];        
+        [NSManagedObjectContext MR_initializeDefaultContextWithCoordinator:coordinator];
         
         // Import gliders.
         [MagicalRecord saveWithBlockAndWait:^(NSManagedObjectContext *localContext) {
@@ -48,6 +71,7 @@ int main(int argc, const char * argv[]) {
             discus.name = @"Schempp-Hirth Discus 2b";
         }];
         
+        [MagicalRecord cleanUp];
         NSLog(@"🚀 Importing database ended.");
     }
     return 0;
