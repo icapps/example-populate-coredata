@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629080861BC7B4A400501732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080851BC7B4A400501732 /* main.m */; };
+		629080891BC7B4A400501732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080881BC7B4A400501732 /* AppDelegate.m */; };
+		629080911BC7B4A400501732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629080901BC7B4A400501732 /* Assets.xcassets */; };
+		629080941BC7B4A400501732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629080921BC7B4A400501732 /* LaunchScreen.storyboard */; };
+		629080A01BC7B50000501732 /* Gliders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6290809F1BC7B50000501732 /* Gliders.storyboard */; settings = {ASSET_TAGS = (); }; };
+		629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A21BC7B52500501732 /* GlidersTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629080851BC7B4A400501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629080871BC7B4A400501732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629080881BC7B4A400501732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629080901BC7B4A400501732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		629080931BC7B4A400501732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		629080951BC7B4A400501732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6290809F1BC7B50000501732 /* Gliders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gliders.storyboard; sourceTree = "<group>"; };
+		629080A11BC7B52500501732 /* GlidersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlidersTableViewController.h; sourceTree = "<group>"; };
+		629080A21BC7B52500501732 /* GlidersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlidersTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6290807E1BC7B4A400501732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629080781BC7B4A400501732 = {
+			isa = PBXGroup;
+			children = (
+				629080831BC7B4A400501732 /* Preloaded Database */,
+				629080821BC7B4A400501732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629080821BC7B4A400501732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629080811BC7B4A400501732 /* Preloaded Database.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629080831BC7B4A400501732 /* Preloaded Database */ = {
+			isa = PBXGroup;
+			children = (
+				629080871BC7B4A400501732 /* AppDelegate.h */,
+				629080881BC7B4A400501732 /* AppDelegate.m */,
+				6290809C1BC7B4EB00501732 /* Models */,
+				6290809D1BC7B4EB00501732 /* Module */,
+				6290809B1BC7B4B600501732 /* UI */,
+				629080841BC7B4A400501732 /* Supporting Files */,
+			);
+			path = "Preloaded Database";
+			sourceTree = "<group>";
+		};
+		629080841BC7B4A400501732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629080951BC7B4A400501732 /* Info.plist */,
+				629080851BC7B4A400501732 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6290809B1BC7B4B600501732 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				629080901BC7B4A400501732 /* Assets.xcassets */,
+				629080921BC7B4A400501732 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6290809C1BC7B4EB00501732 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6290809D1BC7B4EB00501732 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6290809E1BC7B4EB00501732 /* Gliders */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6290809E1BC7B4EB00501732 /* Gliders */ = {
+			isa = PBXGroup;
+			children = (
+				6290809F1BC7B50000501732 /* Gliders.storyboard */,
+				629080A11BC7B52500501732 /* GlidersTableViewController.h */,
+				629080A21BC7B52500501732 /* GlidersTableViewController.m */,
+			);
+			path = Gliders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629080801BC7B4A400501732 /* Preloaded Database */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629080981BC7B4A400501732 /* Build configuration list for PBXNativeTarget "Preloaded Database" */;
+			buildPhases = (
+				6290807D1BC7B4A400501732 /* Sources */,
+				6290807E1BC7B4A400501732 /* Frameworks */,
+				6290807F1BC7B4A400501732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Preloaded Database";
+			productName = "Preloaded Database";
+			productReference = 629080811BC7B4A400501732 /* Preloaded Database.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629080791BC7B4A400501732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iCapps;
+				TargetAttributes = {
+					629080801BC7B4A400501732 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Preloaded Database" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629080781BC7B4A400501732;
+			productRefGroup = 629080821BC7B4A400501732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629080801BC7B4A400501732 /* Preloaded Database */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6290807F1BC7B4A400501732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629080A01BC7B50000501732 /* Gliders.storyboard in Resources */,
+				629080941BC7B4A400501732 /* LaunchScreen.storyboard in Resources */,
+				629080911BC7B4A400501732 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6290807D1BC7B4A400501732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629080891BC7B4A400501732 /* AppDelegate.m in Sources */,
+				629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */,
+				629080861BC7B4A400501732 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		629080921BC7B4A400501732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629080931BC7B4A400501732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629080961BC7B4A400501732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		629080971BC7B4A400501732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629080991BC7B4A400501732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Preloaded Database/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6290809A1BC7B4A400501732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Preloaded Database/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Preloaded Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629080961BC7B4A400501732 /* Debug */,
+				629080971BC7B4A400501732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629080981BC7B4A400501732 /* Build configuration list for PBXNativeTarget "Preloaded Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629080991BC7B4A400501732 /* Debug */,
+				6290809A1BC7B4A400501732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629080791BC7B4A400501732 /* Project object */;
+}
