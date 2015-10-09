@@ -1,6 +1,18 @@
-platform :ios, '8.0'
+def common_pods
+  # Ignore all warnings from pods.
+  inhibit_all_warnings!
 
-# Ignore all warnings from pods.
-inhibit_all_warnings!
+  pod 'MagicalRecord', '~> 2.3'
+end
 
-pod 'MagicalRecord', '~> 2.3'
+target 'Preloaded Database' do
+  platform :ios, '8.0'
+
+  common_pods
+end
+
+target 'Importer' do
+  platform :osx, '10.10'
+
+  common_pods
+end
