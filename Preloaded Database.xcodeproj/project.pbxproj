@@ -13,6 +13,9 @@
 		629080941BC7B4A400501732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629080921BC7B4A400501732 /* LaunchScreen.storyboard */; };
 		629080A01BC7B50000501732 /* Gliders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6290809F1BC7B50000501732 /* Gliders.storyboard */; settings = {ASSET_TAGS = (); }; };
 		629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A21BC7B52500501732 /* GlidersTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		629080A61BC7B63D00501732 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 629080A41BC7B63D00501732 /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		629080AB1BC7B7D100501732 /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A81BC7B7D100501732 /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
+		629080AC1BC7B7D100501732 /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080AA1BC7B7D100501732 /* Glider.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		6290809F1BC7B50000501732 /* Gliders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gliders.storyboard; sourceTree = "<group>"; };
 		629080A11BC7B52500501732 /* GlidersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlidersTableViewController.h; sourceTree = "<group>"; };
 		629080A21BC7B52500501732 /* GlidersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlidersTableViewController.m; sourceTree = "<group>"; };
+		629080A51BC7B63D00501732 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		629080A71BC7B7D100501732 /* _Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Glider.h; sourceTree = "<group>"; };
+		629080A81BC7B7D100501732 /* _Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Glider.m; sourceTree = "<group>"; };
+		629080A91BC7B7D100501732 /* Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glider.h; sourceTree = "<group>"; };
+		629080AA1BC7B7D100501732 /* Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,10 @@
 		6290809C1BC7B4EB00501732 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				629080AD1BC7B7D400501732 /* Generated */,
+				629080A91BC7B7D100501732 /* Glider.h */,
+				629080AA1BC7B7D100501732 /* Glider.m */,
+				629080A41BC7B63D00501732 /* Model.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,6 +121,15 @@
 				629080A21BC7B52500501732 /* GlidersTableViewController.m */,
 			);
 			path = Gliders;
+			sourceTree = "<group>";
+		};
+		629080AD1BC7B7D400501732 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				629080A71BC7B7D100501732 /* _Glider.h */,
+				629080A81BC7B7D100501732 /* _Glider.m */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +204,10 @@
 			files = (
 				629080891BC7B4A400501732 /* AppDelegate.m in Sources */,
 				629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */,
+				629080AB1BC7B7D100501732 /* _Glider.m in Sources */,
 				629080861BC7B4A400501732 /* main.m in Sources */,
+				629080AC1BC7B7D100501732 /* Glider.m in Sources */,
+				629080A61BC7B63D00501732 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +348,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		629080A41BC7B63D00501732 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				629080A51BC7B63D00501732 /* Model.xcdatamodel */,
+			);
+			currentVersion = 629080A51BC7B63D00501732 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 629080791BC7B4A400501732 /* Project object */;
 }
