@@ -6,7 +6,11 @@
 //  Copyright © 2015 iCapps. All rights reserved.
 //
 
+#import <MagicalRecord/MagicalRecord.h>
+
 #import "GlidersTableViewController.h"
+
+#import "Glider.h"
 
 @interface GlidersTableViewController ()
 
@@ -19,7 +23,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.gliders = @[];
+    self.gliders = [Glider MR_findAllSortedBy:@"immatriculation" ascending:YES];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    self.title = @"Gliders";
 }
 
 #pragma mark - UITableViewDatasource
