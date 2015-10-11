@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         
         // Prepare database.
         NSFileManager* fileManager = [NSFileManager defaultManager];
-        NSString *path = [projectRoot stringByAppendingPathComponent:@"Preloaded Database/Database/Preloaded.sqlite"];
+        NSString *path = [projectRoot stringByAppendingPathComponent:@"Preloaded Database/Database/Seed.sqlite"];
         // Removing file if needed.
         if ([fileManager fileExistsAtPath:path]) {
             if ([fileManager removeItemAtPath:path error:nil]) {

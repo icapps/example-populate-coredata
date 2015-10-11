@@ -22,7 +22,7 @@
 		629080B91BC7BA3F00501732 /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A81BC7B7D100501732 /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
 		629080BA1BC7BA4100501732 /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080AA1BC7B7D100501732 /* Glider.m */; settings = {ASSET_TAGS = (); }; };
 		629080BB1BC7BA4400501732 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 629080A41BC7B63D00501732 /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		629080C61BC7C72E00501732 /* Preloaded.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 629080C51BC7C72A00501732 /* Preloaded.sqlite */; settings = {ASSET_TAGS = (); }; };
+		629080C61BC7C72E00501732 /* Seed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 629080C51BC7C72A00501732 /* Seed.sqlite */; settings = {ASSET_TAGS = (); }; };
 		A9819888B22BEBB70FA6BC49 /* libPods-Preloaded Database.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +60,7 @@
 		629080AA1BC7B7D100501732 /* Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glider.m; sourceTree = "<group>"; };
 		629080B21BC7B93B00501732 /* Importer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Importer; sourceTree = BUILT_PRODUCTS_DIR; };
 		629080B41BC7B93C00501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		629080C51BC7C72A00501732 /* Preloaded.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Preloaded.sqlite; sourceTree = "<group>"; };
+		629080C51BC7C72A00501732 /* Seed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Seed.sqlite; sourceTree = "<group>"; };
 		736D9C64B717FBB97921E58A /* Pods-Preloaded Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.debug.xcconfig"; sourceTree = "<group>"; };
 		858E55626843E17735B752C0 /* Pods-Preloaded Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.release.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.release.xcconfig"; sourceTree = "<group>"; };
 		8A5C24FAD264AA6268B987AB /* Pods-Importer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Importer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Importer/Pods-Importer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		629080BE1BC7C68500501732 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				629080C51BC7C72A00501732 /* Preloaded.sqlite */,
+				629080C51BC7C72A00501732 /* Seed.sqlite */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629080C61BC7C72E00501732 /* Preloaded.sqlite in Resources */,
+				629080C61BC7C72E00501732 /* Seed.sqlite in Resources */,
 				629080A01BC7B50000501732 /* Gliders.storyboard in Resources */,
 				629080941BC7B4A400501732 /* LaunchScreen.storyboard in Resources */,
 				629080911BC7B4A400501732 /* Assets.xcassets in Resources */,
