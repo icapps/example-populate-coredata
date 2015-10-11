@@ -13,8 +13,18 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Copy preseed.
+    NSURL *seededStoreURL = [[NSBundle mainBundle] URLForResource:@"Seed" withExtension:@"sqlite"];
+    NSFileManager* fileManager = [NSFileManager defaultManager];
+    NSURL *documentsURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    NSURL *storeURL = [documentsURL URLByAppendingPathComponent:@"Store.sqlite"];
+    NSError *error = nil;
+    if (![fileManager copyItemAtURL:seededStoreURL toURL:storeURL error:&error]) {
+        NSLog(@"Error: Unable to copy seeded database.");
+    }
+
     // Prepare database.
-    [MagicalRecord setupAutoMigratingCoreDataStack];
+    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreAtURL:storeURL];
     
     return YES;
 }
