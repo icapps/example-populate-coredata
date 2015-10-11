@@ -38,4 +38,12 @@
     return [self.gliders count];
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    Glider *glider = self.gliders[indexPath.row];
+    cell.textLabel.text = glider.immatriculation;
+    cell.detailTextLabel.text = glider.name;
+    return cell;
+}
+
 @end
