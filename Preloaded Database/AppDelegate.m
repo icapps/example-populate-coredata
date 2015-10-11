@@ -13,15 +13,24 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Copy preseed.
-    NSURL *seededStoreURL = [[NSBundle mainBundle] URLForResource:@"Seed" withExtension:@"sqlite"];
+    // Define the database storeURL.
     NSFileManager* fileManager = [NSFileManager defaultManager];
     NSURL *documentsURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
     NSURL *storeURL = [documentsURL URLByAppendingPathComponent:@"Store.sqlite"];
-    NSError *error = nil;
-    if (![fileManager copyItemAtURL:seededStoreURL toURL:storeURL error:&error]) {
-        NSLog(@"Error: Unable to copy seeded database.");
+    
+    // Copy seed database if SeedVersion isn't the current version.
+    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
+    NSString* bundleVersion = [infoDictionary objectForKey:(NSString *)kCFBundleVersionKey];
+    NSString *seedVersion = [[NSUserDefaults standardUserDefaults] objectForKey:@"SeedVersion"];
+    if (![seedVersion isEqualToString:bundleVersion]) {
+        // Copy the seed database
+        NSURL *seededStoreURL = [[NSBundle mainBundle] URLForResource:@"Seed" withExtension:@"sqlite"];
+        NSError *error = nil;
+        if (![fileManager copyItemAtURL:seededStoreURL toURL:storeURL error:&error]) {
+            NSLog(@"Error: Unable to copy seeded database.");
+        }
     }
+    [[NSUserDefaults standardUserDefaults] setObject:bundleVersion forKey:@"SeedVersion"];
 
     // Prepare database.
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreAtURL:storeURL];
