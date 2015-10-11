@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C5974B425A7E9E517FC5113 /* libPods-Importer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDAC249EB94A692783AD1DC /* libPods-Importer.a */; };
+		621389CF1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
 		629080861BC7B4A400501732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080851BC7B4A400501732 /* main.m */; };
 		629080891BC7B4A400501732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080881BC7B4A400501732 /* AppDelegate.m */; };
 		629080911BC7B4A400501732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629080901BC7B4A400501732 /* Assets.xcassets */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		0EDAC249EB94A692783AD1DC /* libPods-Importer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Importer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Preloaded Database.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621389CD1BCAE0FE00E7F3BE /* MagicalRecord+WAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+WAL.h"; sourceTree = "<group>"; };
+		621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
 		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629080851BC7B4A400501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		629080871BC7B4A400501732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 				858E55626843E17735B752C0 /* Pods-Preloaded Database.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		621389CC1BCAE0E800E7F3BE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				621389CD1BCAE0FE00E7F3BE /* MagicalRecord+WAL.h */,
+				621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		629080781BC7B4A400501732 = {
@@ -188,6 +200,7 @@
 		629080B31BC7B93B00501732 /* Importer */ = {
 			isa = PBXGroup;
 			children = (
+				621389CC1BCAE0E800E7F3BE /* Categories */,
 				629080B41BC7B93C00501732 /* main.m */,
 			);
 			path = Importer;
@@ -382,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621389CF1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m in Sources */,
 				629080B91BC7BA3F00501732 /* _Glider.m in Sources */,
 				629080BA1BC7BA4100501732 /* Glider.m in Sources */,
 				629080B51BC7B93C00501732 /* main.m in Sources */,

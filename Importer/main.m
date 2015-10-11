@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <MagicalRecord/MagicalRecord.h>
 
+#import "MagicalRecord+WAL.h"
+
 #import "Glider.h"
 
 int main(int argc, const char * argv[]) {
@@ -30,28 +32,7 @@ int main(int argc, const char * argv[]) {
         
         // Setup MagicalRecord.
         [MagicalRecord setLoggingLevel:MagicalRecordLoggingLevelOff];
-        
-        NSManagedObjectModel *model = [NSManagedObjectModel MR_defaultManagedObjectModel];
-        NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
-
-        NSDictionary *options = @{
-                                  NSMigratePersistentStoresAutomaticallyOption: @YES,
-                                  NSInferMappingModelAutomaticallyOption: @YES,
-                                  NSSQLitePragmasOption: @{ @"journal_mode" : @"DELETE" }
-                                  };
-        
-        NSError *error = nil;
-        NSPersistentStore *store =[coordinator addPersistentStoreWithType:NSSQLiteStoreType
-                                                            configuration:nil
-                                                                      URL:[NSURL fileURLWithPath:path]
-                                                                  options:options
-                                                                    error:&error];
-        if (!store || error) {
-            NSLog(@"Error setting up user store:%@ for %@", [error localizedDescription], path);
-            exit (-1);
-        }
-        [NSPersistentStoreCoordinator MR_setDefaultStoreCoordinator:coordinator];        
-        [NSManagedObjectContext MR_initializeDefaultContextWithCoordinator:coordinator];
+        [MagicalRecord setupCoreDataStackWithAutoMigratingNonWALSqliteStoreAtURL:[NSURL fileURLWithPath:path]];
         
         // Import gliders.
         [MagicalRecord saveWithBlockAndWait:^(NSManagedObjectContext *localContext) {
