@@ -10,6 +10,8 @@
 
 #import "AppDelegate.h"
 
+static const NSUInteger kCurrentSeedVersion = 1;
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -19,18 +21,27 @@
     NSURL *storeURL = [documentsURL URLByAppendingPathComponent:@"Store.sqlite"];
     
     // Copy seed database if SeedVersion isn't the current version.
-    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
-    NSString* bundleVersion = [infoDictionary objectForKey:(NSString *)kCFBundleVersionKey];
-    NSString *seedVersion = [[NSUserDefaults standardUserDefaults] objectForKey:@"SeedVersion"];
-    if (![seedVersion isEqualToString:bundleVersion]) {
+    NSUInteger seedVersion = [[NSUserDefaults standardUserDefaults] integerForKey:@"CurrentSeedVersion"];
+    if (seedVersion < kCurrentSeedVersion) {
+        NSLog(@"🚀 New seed version available.");
+        
         // Copy the seed database
         NSURL *seededStoreURL = [[NSBundle mainBundle] URLForResource:@"Seed" withExtension:@"sqlite"];
         NSError *error = nil;
-        if (![fileManager copyItemAtURL:seededStoreURL toURL:storeURL error:&error]) {
-            NSLog(@"Error: Unable to copy seeded database.");
+        
+        // Remove the current database if available.
+        if ([fileManager fileExistsAtPath:[storeURL path]]) {
+            NSLog(@"🚀 Remove the current database.");
+            [fileManager removeItemAtURL:storeURL error:nil];
+        }
+        
+        if ([fileManager copyItemAtURL:seededStoreURL toURL:storeURL error:&error]) {
+            NSLog(@"🚀 Move the seed database to the store location.");
+            [[NSUserDefaults standardUserDefaults] setInteger:kCurrentSeedVersion forKey:@"CurrentSeedVersion"];
+        } else {
+            NSLog(@"Error: Unable to copy seeded database. %@", [error localizedDescription]);
         }
     }
-    [[NSUserDefaults standardUserDefaults] setObject:bundleVersion forKey:@"SeedVersion"];
 
     // Prepare database.
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreAtURL:storeURL];
