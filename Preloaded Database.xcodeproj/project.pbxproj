@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3C5974B425A7E9E517FC5113 /* libPods-Importer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDAC249EB94A692783AD1DC /* libPods-Importer.a */; };
-		621389CF1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E7C1BD13A5200CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E7B1BD13A5200CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E821BD13E6700CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E811BD13E6700CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E8C1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E8D1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E8E1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E8F1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E901BD1455800CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E8B1BD1455800CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E911BD1455800CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E8B1BD1455800CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
 		629080861BC7B4A400501732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080851BC7B4A400501732 /* main.m */; };
 		629080891BC7B4A400501732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080881BC7B4A400501732 /* AppDelegate.m */; };
 		629080911BC7B4A400501732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629080901BC7B4A400501732 /* Assets.xcassets */; };
@@ -43,12 +46,12 @@
 /* Begin PBXFileReference section */
 		0EDAC249EB94A692783AD1DC /* libPods-Importer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Importer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Preloaded Database.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		621389CD1BCAE0FE00E7F3BE /* MagicalRecord+WAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+WAL.h"; sourceTree = "<group>"; };
-		621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
-		623A8E7A1BD13A5200CB593E /* MagicalRecord+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Seed.h"; sourceTree = "<group>"; };
-		623A8E7B1BD13A5200CB593E /* MagicalRecord+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Seed.m"; sourceTree = "<group>"; };
-		623A8E801BD13E6700CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
-		623A8E811BD13E6700CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
+		623A8E851BD1455800CB593E /* MagicalRecord+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Seed.h"; sourceTree = "<group>"; };
+		623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Seed.m"; sourceTree = "<group>"; };
+		623A8E871BD1455800CB593E /* MagicalRecord+WAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+WAL.h"; sourceTree = "<group>"; };
+		623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
+		623A8E8A1BD1455800CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
+		623A8E8B1BD1455800CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
 		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629080851BC7B4A400501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		629080871BC7B4A400501732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,29 +107,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		621389CC1BCAE0E800E7F3BE /* Categories */ = {
+		623A8E831BD1455800CB593E /* Seed Database */ = {
 			isa = PBXGroup;
 			children = (
-				621389CD1BCAE0FE00E7F3BE /* MagicalRecord+WAL.h */,
-				621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */,
+				623A8E841BD1455800CB593E /* Categories */,
+				623A8E891BD1455800CB593E /* Database */,
+			);
+			path = "Seed Database";
+			sourceTree = "<group>";
+		};
+		623A8E841BD1455800CB593E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				623A8E851BD1455800CB593E /* MagicalRecord+Seed.h */,
+				623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */,
+				623A8E871BD1455800CB593E /* MagicalRecord+WAL.h */,
+				623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		623A8E791BD13A2500CB593E /* Categories */ = {
+		623A8E891BD1455800CB593E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				623A8E7A1BD13A5200CB593E /* MagicalRecord+Seed.h */,
-				623A8E7B1BD13A5200CB593E /* MagicalRecord+Seed.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		623A8E7F1BD13E5500CB593E /* Database */ = {
-			isa = PBXGroup;
-			children = (
-				623A8E801BD13E6700CB593E /* DatabaseSeed.h */,
-				623A8E811BD13E6700CB593E /* DatabaseSeed.m */,
+				623A8E8A1BD1455800CB593E /* DatabaseSeed.h */,
+				623A8E8B1BD1455800CB593E /* DatabaseSeed.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		629080781BC7B4A400501732 = {
 			isa = PBXGroup;
 			children = (
+				623A8E831BD1455800CB593E /* Seed Database */,
 				629080831BC7B4A400501732 /* Preloaded Database */,
 				629080B31BC7B93B00501732 /* Importer */,
 				629080821BC7B4A400501732 /* Products */,
@@ -156,7 +162,6 @@
 			children = (
 				629080871BC7B4A400501732 /* AppDelegate.h */,
 				629080881BC7B4A400501732 /* AppDelegate.m */,
-				623A8E791BD13A2500CB593E /* Categories */,
 				6290809C1BC7B4EB00501732 /* Models */,
 				6290809D1BC7B4EB00501732 /* Module */,
 				629080841BC7B4A400501732 /* Supporting Files */,
@@ -225,8 +230,6 @@
 		629080B31BC7B93B00501732 /* Importer */ = {
 			isa = PBXGroup;
 			children = (
-				623A8E7F1BD13E5500CB593E /* Database */,
-				621389CC1BCAE0E800E7F3BE /* Categories */,
 				629080B41BC7B93C00501732 /* main.m */,
 			);
 			path = Importer;
@@ -408,13 +411,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623A8E7C1BD13A5200CB593E /* MagicalRecord+Seed.m in Sources */,
+				623A8E8C1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */,
 				629080891BC7B4A400501732 /* AppDelegate.m in Sources */,
+				623A8E901BD1455800CB593E /* DatabaseSeed.m in Sources */,
 				629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */,
 				629080AB1BC7B7D100501732 /* _Glider.m in Sources */,
 				629080861BC7B4A400501732 /* main.m in Sources */,
 				629080AC1BC7B7D100501732 /* Glider.m in Sources */,
 				629080A61BC7B63D00501732 /* Model.xcdatamodeld in Sources */,
+				623A8E8E1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,11 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				621389CF1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m in Sources */,
-				623A8E821BD13E6700CB593E /* DatabaseSeed.m in Sources */,
+				623A8E8D1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */,
+				623A8E8F1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */,
 				629080B91BC7BA3F00501732 /* _Glider.m in Sources */,
 				629080BA1BC7BA4100501732 /* Glider.m in Sources */,
 				629080B51BC7B93C00501732 /* main.m in Sources */,
+				623A8E911BD1455800CB593E /* DatabaseSeed.m in Sources */,
 				629080BB1BC7BA4400501732 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
