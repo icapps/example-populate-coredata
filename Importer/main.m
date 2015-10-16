@@ -9,33 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <MagicalRecord/MagicalRecord.h>
 
-#import "MagicalRecord+WAL.h"
+#import "DatabaseSeed.h"
 
 #import "Glider.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // Change the project root to match your project root.
-        NSString *projectRoot = [@"~/Desktop/Preloaded Database" stringByExpandingTildeInPath];
-        
-        NSLog(@"🚀 Importing database started.");
-        
-        // Prepare database.
-        NSFileManager* fileManager = [NSFileManager defaultManager];
-        NSString *path = [projectRoot stringByAppendingPathComponent:@"Preloaded Database/Database/Seed.sqlite"];
-        // Removing file if needed.
-        if ([fileManager fileExistsAtPath:path]) {
-            if ([fileManager removeItemAtPath:path error:nil]) {
-                NSLog(@"🚀 Removed the preloaded database file.");
-            }
-        }
-        
-        // Setup MagicalRecord.
-        [MagicalRecord setLoggingLevel:MagicalRecordLoggingLevelOff];
-        [MagicalRecord setupNonWALJournalledStackAtURL:[NSURL fileURLWithPath:path]];
-        
-        // Import gliders.
-        [MagicalRecord saveWithBlockAndWait:^(NSManagedObjectContext *localContext) {
+        DatabaseSeed *seed = [DatabaseSeed new];
+        [seed save:^(NSManagedObjectContext *localContext) {
             NSLog(@"✈️ Importing glider OO-YBR.");
             Glider *ventus = [Glider MR_createEntityInContext:localContext];
             ventus.immatriculation = @"OO-YBR";
@@ -51,9 +32,7 @@ int main(int argc, const char * argv[]) {
             discus.immatriculation = @"OO-YMR";
             discus.name = @"Schempp-Hirth Discus 2b";
         }];
-        
-        [MagicalRecord cleanUp];
-        NSLog(@"🚀 Importing database ended.");
+        [seed clean];
     }
     return 0;
 }

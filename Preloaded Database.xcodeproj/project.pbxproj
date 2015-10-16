@@ -10,6 +10,7 @@
 		3C5974B425A7E9E517FC5113 /* libPods-Importer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDAC249EB94A692783AD1DC /* libPods-Importer.a */; };
 		621389CF1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
 		623A8E7C1BD13A5200CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E7B1BD13A5200CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8E821BD13E6700CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E811BD13E6700CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
 		629080861BC7B4A400501732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080851BC7B4A400501732 /* main.m */; };
 		629080891BC7B4A400501732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080881BC7B4A400501732 /* AppDelegate.m */; };
 		629080911BC7B4A400501732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629080901BC7B4A400501732 /* Assets.xcassets */; };
@@ -46,6 +47,8 @@
 		621389CE1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
 		623A8E7A1BD13A5200CB593E /* MagicalRecord+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Seed.h"; sourceTree = "<group>"; };
 		623A8E7B1BD13A5200CB593E /* MagicalRecord+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Seed.m"; sourceTree = "<group>"; };
+		623A8E801BD13E6700CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
+		623A8E811BD13E6700CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
 		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629080851BC7B4A400501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		629080871BC7B4A400501732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,15 @@
 				623A8E7B1BD13A5200CB593E /* MagicalRecord+Seed.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		623A8E7F1BD13E5500CB593E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				623A8E801BD13E6700CB593E /* DatabaseSeed.h */,
+				623A8E811BD13E6700CB593E /* DatabaseSeed.m */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		629080781BC7B4A400501732 = {
@@ -213,6 +225,7 @@
 		629080B31BC7B93B00501732 /* Importer */ = {
 			isa = PBXGroup;
 			children = (
+				623A8E7F1BD13E5500CB593E /* Database */,
 				621389CC1BCAE0E800E7F3BE /* Categories */,
 				629080B41BC7B93C00501732 /* main.m */,
 			);
@@ -410,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621389CF1BCAE0FE00E7F3BE /* MagicalRecord+WAL.m in Sources */,
+				623A8E821BD13E6700CB593E /* DatabaseSeed.m in Sources */,
 				629080B91BC7BA3F00501732 /* _Glider.m in Sources */,
 				629080BA1BC7BA4100501732 /* Glider.m in Sources */,
 				629080B51BC7B93C00501732 /* main.m in Sources */,
@@ -539,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A5C24FAD264AA6268B987AB /* Pods-Importer.debug.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -549,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE947994FC3A25E5949023A3 /* Pods-Importer.release.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
