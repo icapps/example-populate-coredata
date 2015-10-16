@@ -10,7 +10,7 @@
 
 @implementation MagicalRecord (WAL)
 
-+ (void)setupCoreDataStackWithAutoMigratingNonWALSqliteStoreAtURL:(NSURL *)storeURL {
++ (void)setupNonWALJournalledStackAtURL:(NSURL *)storeURL {
     NSManagedObjectModel *model = [NSManagedObjectModel MR_defaultManagedObjectModel];
     NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
     

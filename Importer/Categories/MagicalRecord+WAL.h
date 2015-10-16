@@ -10,6 +10,6 @@
 
 @interface MagicalRecord (WAL)
 
-+ (void)setupCoreDataStackWithAutoMigratingNonWALSqliteStoreAtURL:(NSURL *)storeURL;
++ (void)setupNonWALJournalledStackAtURL:(NSURL *)storeURL;
 
 @end

@@ -32,7 +32,7 @@ int main(int argc, const char * argv[]) {
         
         // Setup MagicalRecord.
         [MagicalRecord setLoggingLevel:MagicalRecordLoggingLevelOff];
-        [MagicalRecord setupCoreDataStackWithAutoMigratingNonWALSqliteStoreAtURL:[NSURL fileURLWithPath:path]];
+        [MagicalRecord setupNonWALJournalledStackAtURL:[NSURL fileURLWithPath:path]];
         
         // Import gliders.
         [MagicalRecord saveWithBlockAndWait:^(NSManagedObjectContext *localContext) {
