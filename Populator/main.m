@@ -10,7 +10,6 @@
 #import <MagicalRecord/MagicalRecord.h>
 
 #import "DatabaseSeed.h"
-
 #import "Glider.h"
 
 int main(int argc, const char * argv[]) {

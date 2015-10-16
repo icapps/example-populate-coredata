@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "629080801BC7B4A400501732"
-               BuildableName = "Preloaded Database.app"
-               BlueprintName = "Preloaded Database"
-               ReferencedContainer = "container:Preloaded Database.xcodeproj">
+               BlueprintIdentifier = "629080B11BC7B93B00501732"
+               BuildableName = "Populator"
+               BlueprintName = "Populator"
+               ReferencedContainer = "container:Populate Core Data.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "629080801BC7B4A400501732"
-            BuildableName = "Preloaded Database.app"
-            BlueprintName = "Preloaded Database"
-            ReferencedContainer = "container:Preloaded Database.xcodeproj">
+            BlueprintIdentifier = "629080B11BC7B93B00501732"
+            BuildableName = "Populator"
+            BlueprintName = "Populator"
+            ReferencedContainer = "container:Populate Core Data.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,12 +55,19 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "629080801BC7B4A400501732"
-            BuildableName = "Preloaded Database.app"
-            BlueprintName = "Preloaded Database"
-            ReferencedContainer = "container:Preloaded Database.xcodeproj">
+            BlueprintIdentifier = "629080B11BC7B93B00501732"
+            BuildableName = "Populator"
+            BlueprintName = "Populator"
+            ReferencedContainer = "container:Populate Core Data.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "PROJECT_ROOT"
+            value = "${SRCROOT}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,10 +81,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "629080801BC7B4A400501732"
-            BuildableName = "Preloaded Database.app"
-            BlueprintName = "Preloaded Database"
-            ReferencedContainer = "container:Preloaded Database.xcodeproj">
+            BlueprintIdentifier = "629080B11BC7B93B00501732"
+            BuildableName = "Populator"
+            BlueprintName = "Populator"
+            ReferencedContainer = "container:Populate Core Data.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

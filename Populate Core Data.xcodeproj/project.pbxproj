@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3C5974B425A7E9E517FC5113 /* libPods-Importer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDAC249EB94A692783AD1DC /* libPods-Importer.a */; };
-		623A8E8C1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E8D1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E8E1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E8F1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E901BD1455800CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E8B1BD1455800CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8E911BD1455800CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8E8B1BD1455800CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
-		629080861BC7B4A400501732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080851BC7B4A400501732 /* main.m */; };
-		629080891BC7B4A400501732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080881BC7B4A400501732 /* AppDelegate.m */; };
-		629080911BC7B4A400501732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629080901BC7B4A400501732 /* Assets.xcassets */; };
-		629080941BC7B4A400501732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629080921BC7B4A400501732 /* LaunchScreen.storyboard */; };
-		629080A01BC7B50000501732 /* Gliders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6290809F1BC7B50000501732 /* Gliders.storyboard */; settings = {ASSET_TAGS = (); }; };
-		629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A21BC7B52500501732 /* GlidersTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		629080A61BC7B63D00501732 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 629080A41BC7B63D00501732 /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		629080AB1BC7B7D100501732 /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A81BC7B7D100501732 /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
-		629080AC1BC7B7D100501732 /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080AA1BC7B7D100501732 /* Glider.m */; settings = {ASSET_TAGS = (); }; };
-		629080B51BC7B93C00501732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080B41BC7B93C00501732 /* main.m */; };
-		629080B91BC7BA3F00501732 /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080A81BC7B7D100501732 /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
-		629080BA1BC7BA4100501732 /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 629080AA1BC7B7D100501732 /* Glider.m */; settings = {ASSET_TAGS = (); }; };
-		629080BB1BC7BA4400501732 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 629080A41BC7B63D00501732 /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		629080C61BC7C72E00501732 /* Seed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 629080C51BC7C72A00501732 /* Seed.sqlite */; settings = {ASSET_TAGS = (); }; };
+		623A8EB51BD14E4100CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB41BD14E4100CB593E /* main.m */; settings = {ASSET_TAGS = (); }; };
+		623A8ECC1BD14F0F00CB593E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB81BD14F0F00CB593E /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		623A8ECD1BD14F0F00CB593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EB91BD14F0F00CB593E /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		623A8ECE1BD14F0F00CB593E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		623A8ECF1BD14F0F00CB593E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBD1BD14F0F00CB593E /* .gitignore */; settings = {ASSET_TAGS = (); }; };
+		623A8ED01BD14F0F00CB593E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBE1BD14F0F00CB593E /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		623A8ED11BD14F0F00CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EBF1BD14F0F00CB593E /* main.m */; settings = {ASSET_TAGS = (); }; };
+		623A8ED21BD14F0F00CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
+		623A8ED31BD14F0F00CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; settings = {ASSET_TAGS = (); }; };
+		623A8ED41BD14F0F00CB593E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC51BD14F0F00CB593E /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		623A8ED51BD14F0F00CB593E /* Gliders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EC91BD14F0F00CB593E /* Gliders.storyboard */; settings = {ASSET_TAGS = (); }; };
+		623A8ED61BD14F0F00CB593E /* GlidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8ECB1BD14F0F00CB593E /* GlidersTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE01BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE11BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE21BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE31BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE41BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE51BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE61BD14F7300CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EE71BD14F7300CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; settings = {ASSET_TAGS = (); }; };
 		A9819888B22BEBB70FA6BC49 /* libPods-Preloaded Database.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */; };
 /* End PBXBuildFile section */
 
@@ -46,30 +46,30 @@
 /* Begin PBXFileReference section */
 		0EDAC249EB94A692783AD1DC /* libPods-Importer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Importer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Preloaded Database.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		623A8E851BD1455800CB593E /* MagicalRecord+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Seed.h"; sourceTree = "<group>"; };
-		623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Seed.m"; sourceTree = "<group>"; };
-		623A8E871BD1455800CB593E /* MagicalRecord+WAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+WAL.h"; sourceTree = "<group>"; };
-		623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
-		623A8E8A1BD1455800CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
-		623A8E8B1BD1455800CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
-		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		629080851BC7B4A400501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		629080871BC7B4A400501732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		629080881BC7B4A400501732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		629080901BC7B4A400501732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		629080931BC7B4A400501732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		629080951BC7B4A400501732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6290809F1BC7B50000501732 /* Gliders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gliders.storyboard; sourceTree = "<group>"; };
-		629080A11BC7B52500501732 /* GlidersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlidersTableViewController.h; sourceTree = "<group>"; };
-		629080A21BC7B52500501732 /* GlidersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlidersTableViewController.m; sourceTree = "<group>"; };
-		629080A51BC7B63D00501732 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		629080A71BC7B7D100501732 /* _Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Glider.h; sourceTree = "<group>"; };
-		629080A81BC7B7D100501732 /* _Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Glider.m; sourceTree = "<group>"; };
-		629080A91BC7B7D100501732 /* Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glider.h; sourceTree = "<group>"; };
-		629080AA1BC7B7D100501732 /* Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glider.m; sourceTree = "<group>"; };
-		629080B21BC7B93B00501732 /* Importer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Importer; sourceTree = BUILT_PRODUCTS_DIR; };
-		629080B41BC7B93C00501732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		629080C51BC7C72A00501732 /* Seed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Seed.sqlite; sourceTree = "<group>"; };
+		623A8EB41BD14E4100CB593E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		623A8EB71BD14F0F00CB593E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		623A8EB81BD14F0F00CB593E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		623A8EB91BD14F0F00CB593E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		623A8EBB1BD14F0F00CB593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		623A8EBD1BD14F0F00CB593E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		623A8EBE1BD14F0F00CB593E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623A8EBF1BD14F0F00CB593E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		623A8EC11BD14F0F00CB593E /* _Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Glider.h; sourceTree = "<group>"; };
+		623A8EC21BD14F0F00CB593E /* _Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Glider.m; sourceTree = "<group>"; };
+		623A8EC31BD14F0F00CB593E /* Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glider.h; sourceTree = "<group>"; };
+		623A8EC41BD14F0F00CB593E /* Glider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glider.m; sourceTree = "<group>"; };
+		623A8EC61BD14F0F00CB593E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		623A8EC91BD14F0F00CB593E /* Gliders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gliders.storyboard; sourceTree = "<group>"; };
+		623A8ECA1BD14F0F00CB593E /* GlidersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlidersTableViewController.h; sourceTree = "<group>"; };
+		623A8ECB1BD14F0F00CB593E /* GlidersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlidersTableViewController.m; sourceTree = "<group>"; };
+		623A8ED91BD14F4500CB593E /* MagicalRecord+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+Seed.h"; sourceTree = "<group>"; };
+		623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+Seed.m"; sourceTree = "<group>"; };
+		623A8EDB1BD14F4500CB593E /* MagicalRecord+WAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord+WAL.h"; sourceTree = "<group>"; };
+		623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
+		623A8EDE1BD14F4500CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
+		623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
+		629080811BC7B4A400501732 /* Populate Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Populate Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629080B21BC7B93B00501732 /* Populator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Populator; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D9C64B717FBB97921E58A /* Pods-Preloaded Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.debug.xcconfig"; sourceTree = "<group>"; };
 		858E55626843E17735B752C0 /* Pods-Preloaded Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.release.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.release.xcconfig"; sourceTree = "<group>"; };
 		8A5C24FAD264AA6268B987AB /* Pods-Importer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Importer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Importer/Pods-Importer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,31 +107,93 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		623A8E831BD1455800CB593E /* Seed Database */ = {
+		623A8EB31BD14E4100CB593E /* Populator */ = {
 			isa = PBXGroup;
 			children = (
-				623A8E841BD1455800CB593E /* Categories */,
-				623A8E891BD1455800CB593E /* Database */,
+				623A8EB41BD14E4100CB593E /* main.m */,
 			);
-			path = "Seed Database";
+			path = Populator;
 			sourceTree = "<group>";
 		};
-		623A8E841BD1455800CB593E /* Categories */ = {
+		623A8EB61BD14F0F00CB593E /* Glider Application */ = {
 			isa = PBXGroup;
 			children = (
-				623A8E851BD1455800CB593E /* MagicalRecord+Seed.h */,
-				623A8E861BD1455800CB593E /* MagicalRecord+Seed.m */,
-				623A8E871BD1455800CB593E /* MagicalRecord+WAL.h */,
-				623A8E881BD1455800CB593E /* MagicalRecord+WAL.m */,
+				623A8EB71BD14F0F00CB593E /* AppDelegate.h */,
+				623A8EB81BD14F0F00CB593E /* AppDelegate.m */,
+				623A8EB91BD14F0F00CB593E /* Assets.xcassets */,
+				623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */,
+				623A8EBC1BD14F0F00CB593E /* Database */,
+				623A8EBE1BD14F0F00CB593E /* Info.plist */,
+				623A8EBF1BD14F0F00CB593E /* main.m */,
+				623A8EC01BD14F0F00CB593E /* Models */,
+				623A8EC71BD14F0F00CB593E /* Module */,
+			);
+			path = "Glider Application";
+			sourceTree = "<group>";
+		};
+		623A8EBC1BD14F0F00CB593E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				623A8EBD1BD14F0F00CB593E /* .gitignore */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		623A8EC01BD14F0F00CB593E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				623A8EC11BD14F0F00CB593E /* _Glider.h */,
+				623A8EC21BD14F0F00CB593E /* _Glider.m */,
+				623A8EC31BD14F0F00CB593E /* Glider.h */,
+				623A8EC41BD14F0F00CB593E /* Glider.m */,
+				623A8EC51BD14F0F00CB593E /* Model.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		623A8EC71BD14F0F00CB593E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				623A8EC81BD14F0F00CB593E /* Gliders */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		623A8EC81BD14F0F00CB593E /* Gliders */ = {
+			isa = PBXGroup;
+			children = (
+				623A8EC91BD14F0F00CB593E /* Gliders.storyboard */,
+				623A8ECA1BD14F0F00CB593E /* GlidersTableViewController.h */,
+				623A8ECB1BD14F0F00CB593E /* GlidersTableViewController.m */,
+			);
+			path = Gliders;
+			sourceTree = "<group>";
+		};
+		623A8ED71BD14F4500CB593E /* Populate Database */ = {
+			isa = PBXGroup;
+			children = (
+				623A8ED81BD14F4500CB593E /* Categories */,
+				623A8EDD1BD14F4500CB593E /* Database */,
+			);
+			path = "Populate Database";
+			sourceTree = "<group>";
+		};
+		623A8ED81BD14F4500CB593E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				623A8ED91BD14F4500CB593E /* MagicalRecord+Seed.h */,
+				623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */,
+				623A8EDB1BD14F4500CB593E /* MagicalRecord+WAL.h */,
+				623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		623A8E891BD1455800CB593E /* Database */ = {
+		623A8EDD1BD14F4500CB593E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				623A8E8A1BD1455800CB593E /* DatabaseSeed.h */,
-				623A8E8B1BD1455800CB593E /* DatabaseSeed.m */,
+				623A8EDE1BD14F4500CB593E /* DatabaseSeed.h */,
+				623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -139,108 +201,22 @@
 		629080781BC7B4A400501732 = {
 			isa = PBXGroup;
 			children = (
-				623A8E831BD1455800CB593E /* Seed Database */,
-				629080831BC7B4A400501732 /* Preloaded Database */,
-				629080B31BC7B93B00501732 /* Importer */,
-				629080821BC7B4A400501732 /* Products */,
-				101EE8FF4B1BFCBCFECB3360 /* Pods */,
+				623A8ED71BD14F4500CB593E /* Populate Database */,
+				623A8EB61BD14F0F00CB593E /* Glider Application */,
+				623A8EB31BD14E4100CB593E /* Populator */,
 				EEB79313C999BA3E60A524A8 /* Frameworks */,
+				101EE8FF4B1BFCBCFECB3360 /* Pods */,
+				629080821BC7B4A400501732 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		629080821BC7B4A400501732 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				629080811BC7B4A400501732 /* Preloaded Database.app */,
-				629080B21BC7B93B00501732 /* Importer */,
+				629080811BC7B4A400501732 /* Populate Core Data.app */,
+				629080B21BC7B93B00501732 /* Populator */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		629080831BC7B4A400501732 /* Preloaded Database */ = {
-			isa = PBXGroup;
-			children = (
-				629080871BC7B4A400501732 /* AppDelegate.h */,
-				629080881BC7B4A400501732 /* AppDelegate.m */,
-				6290809C1BC7B4EB00501732 /* Models */,
-				6290809D1BC7B4EB00501732 /* Module */,
-				629080841BC7B4A400501732 /* Supporting Files */,
-				6290809B1BC7B4B600501732 /* UI */,
-			);
-			path = "Preloaded Database";
-			sourceTree = "<group>";
-		};
-		629080841BC7B4A400501732 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				629080BE1BC7C68500501732 /* Database */,
-				629080951BC7B4A400501732 /* Info.plist */,
-				629080851BC7B4A400501732 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6290809B1BC7B4B600501732 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				629080901BC7B4A400501732 /* Assets.xcassets */,
-				629080921BC7B4A400501732 /* LaunchScreen.storyboard */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		6290809C1BC7B4EB00501732 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				629080AD1BC7B7D400501732 /* Generated */,
-				629080A91BC7B7D100501732 /* Glider.h */,
-				629080AA1BC7B7D100501732 /* Glider.m */,
-				629080A41BC7B63D00501732 /* Model.xcdatamodeld */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6290809D1BC7B4EB00501732 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				6290809E1BC7B4EB00501732 /* Gliders */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		6290809E1BC7B4EB00501732 /* Gliders */ = {
-			isa = PBXGroup;
-			children = (
-				6290809F1BC7B50000501732 /* Gliders.storyboard */,
-				629080A11BC7B52500501732 /* GlidersTableViewController.h */,
-				629080A21BC7B52500501732 /* GlidersTableViewController.m */,
-			);
-			path = Gliders;
-			sourceTree = "<group>";
-		};
-		629080AD1BC7B7D400501732 /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				629080A71BC7B7D100501732 /* _Glider.h */,
-				629080A81BC7B7D100501732 /* _Glider.m */,
-			);
-			name = Generated;
-			sourceTree = "<group>";
-		};
-		629080B31BC7B93B00501732 /* Importer */ = {
-			isa = PBXGroup;
-			children = (
-				629080B41BC7B93C00501732 /* main.m */,
-			);
-			path = Importer;
-			sourceTree = "<group>";
-		};
-		629080BE1BC7C68500501732 /* Database */ = {
-			isa = PBXGroup;
-			children = (
-				629080C51BC7C72A00501732 /* Seed.sqlite */,
-			);
-			path = Database;
 			sourceTree = "<group>";
 		};
 		EEB79313C999BA3E60A524A8 /* Frameworks */ = {
@@ -255,9 +231,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		629080801BC7B4A400501732 /* Preloaded Database */ = {
+		629080801BC7B4A400501732 /* Glider Application */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 629080981BC7B4A400501732 /* Build configuration list for PBXNativeTarget "Preloaded Database" */;
+			buildConfigurationList = 629080981BC7B4A400501732 /* Build configuration list for PBXNativeTarget "Glider Application" */;
 			buildPhases = (
 				F5CC39B8A00CC53AD8FBFA07 /* Check Pods Manifest.lock */,
 				6290807D1BC7B4A400501732 /* Sources */,
@@ -269,14 +245,14 @@
 			);
 			dependencies = (
 			);
-			name = "Preloaded Database";
+			name = "Glider Application";
 			productName = "Preloaded Database";
-			productReference = 629080811BC7B4A400501732 /* Preloaded Database.app */;
+			productReference = 629080811BC7B4A400501732 /* Populate Core Data.app */;
 			productType = "com.apple.product-type.application";
 		};
-		629080B11BC7B93B00501732 /* Importer */ = {
+		629080B11BC7B93B00501732 /* Populator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 629080B81BC7B93C00501732 /* Build configuration list for PBXNativeTarget "Importer" */;
+			buildConfigurationList = 629080B81BC7B93C00501732 /* Build configuration list for PBXNativeTarget "Populator" */;
 			buildPhases = (
 				23CE7671E8151D9EB67B6719 /* Check Pods Manifest.lock */,
 				629080AE1BC7B93B00501732 /* Sources */,
@@ -288,9 +264,9 @@
 			);
 			dependencies = (
 			);
-			name = Importer;
+			name = Populator;
 			productName = Importer;
-			productReference = 629080B21BC7B93B00501732 /* Importer */;
+			productReference = 629080B21BC7B93B00501732 /* Populator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Preloaded Database" */;
+			buildConfigurationList = 6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Populate Core Data" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -323,8 +299,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				629080801BC7B4A400501732 /* Preloaded Database */,
-				629080B11BC7B93B00501732 /* Importer */,
+				629080801BC7B4A400501732 /* Glider Application */,
+				629080B11BC7B93B00501732 /* Populator */,
 			);
 		};
 /* End PBXProject section */
@@ -334,10 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629080C61BC7C72E00501732 /* Seed.sqlite in Resources */,
-				629080A01BC7B50000501732 /* Gliders.storyboard in Resources */,
-				629080941BC7B4A400501732 /* LaunchScreen.storyboard in Resources */,
-				629080911BC7B4A400501732 /* Assets.xcassets in Resources */,
+				623A8ECF1BD14F0F00CB593E /* .gitignore in Resources */,
+				623A8ED01BD14F0F00CB593E /* Info.plist in Resources */,
+				623A8ECE1BD14F0F00CB593E /* LaunchScreen.storyboard in Resources */,
+				623A8ED51BD14F0F00CB593E /* Gliders.storyboard in Resources */,
+				623A8ECD1BD14F0F00CB593E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,15 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623A8E8C1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */,
-				629080891BC7B4A400501732 /* AppDelegate.m in Sources */,
-				623A8E901BD1455800CB593E /* DatabaseSeed.m in Sources */,
-				629080A31BC7B52500501732 /* GlidersTableViewController.m in Sources */,
-				629080AB1BC7B7D100501732 /* _Glider.m in Sources */,
-				629080861BC7B4A400501732 /* main.m in Sources */,
-				629080AC1BC7B7D100501732 /* Glider.m in Sources */,
-				629080A61BC7B63D00501732 /* Model.xcdatamodeld in Sources */,
-				623A8E8E1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */,
+				623A8EE01BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */,
+				623A8ED41BD14F0F00CB593E /* Model.xcdatamodeld in Sources */,
+				623A8EE21BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */,
+				623A8ED61BD14F0F00CB593E /* GlidersTableViewController.m in Sources */,
+				623A8ECC1BD14F0F00CB593E /* AppDelegate.m in Sources */,
+				623A8ED31BD14F0F00CB593E /* Glider.m in Sources */,
+				623A8ED11BD14F0F00CB593E /* main.m in Sources */,
+				623A8EE41BD14F4500CB593E /* DatabaseSeed.m in Sources */,
+				623A8ED21BD14F0F00CB593E /* _Glider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,23 +404,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623A8E8D1BD1455800CB593E /* MagicalRecord+Seed.m in Sources */,
-				623A8E8F1BD1455800CB593E /* MagicalRecord+WAL.m in Sources */,
-				629080B91BC7BA3F00501732 /* _Glider.m in Sources */,
-				629080BA1BC7BA4100501732 /* Glider.m in Sources */,
-				629080B51BC7B93C00501732 /* main.m in Sources */,
-				623A8E911BD1455800CB593E /* DatabaseSeed.m in Sources */,
-				629080BB1BC7BA4400501732 /* Model.xcdatamodeld in Sources */,
+				623A8EE11BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */,
+				623A8EB51BD14E4100CB593E /* main.m in Sources */,
+				623A8EE61BD14F7300CB593E /* _Glider.m in Sources */,
+				623A8EE31BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */,
+				623A8EE71BD14F7300CB593E /* Glider.m in Sources */,
+				623A8EE51BD14F4500CB593E /* DatabaseSeed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		629080921BC7B4A400501732 /* LaunchScreen.storyboard */ = {
+		623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				629080931BC7B4A400501732 /* Base */,
+				623A8EBB1BD14F0F00CB593E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -539,7 +515,7 @@
 				INFOPLIST_FILE = "Preloaded Database/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Populate Core Data";
 			};
 			name = Debug;
 		};
@@ -551,7 +527,7 @@
 				INFOPLIST_FILE = "Preloaded Database/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Populate Core Data";
 			};
 			name = Release;
 		};
@@ -580,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Preloaded Database" */ = {
+		6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Populate Core Data" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				629080961BC7B4A400501732 /* Debug */,
@@ -589,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		629080981BC7B4A400501732 /* Build configuration list for PBXNativeTarget "Preloaded Database" */ = {
+		629080981BC7B4A400501732 /* Build configuration list for PBXNativeTarget "Glider Application" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				629080991BC7B4A400501732 /* Debug */,
@@ -598,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		629080B81BC7B93C00501732 /* Build configuration list for PBXNativeTarget "Importer" */ = {
+		629080B81BC7B93C00501732 /* Build configuration list for PBXNativeTarget "Populator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				629080B61BC7B93C00501732 /* Debug */,
@@ -610,12 +586,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		629080A41BC7B63D00501732 /* Model.xcdatamodeld */ = {
+		623A8EC51BD14F0F00CB593E /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				629080A51BC7B63D00501732 /* Model.xcdatamodel */,
+				623A8EC61BD14F0F00CB593E /* Model.xcdatamodel */,
 			);
-			currentVersion = 629080A51BC7B63D00501732 /* Model.xcdatamodel */;
+			currentVersion = 623A8EC61BD14F0F00CB593E /* Model.xcdatamodel */;
 			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

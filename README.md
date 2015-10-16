@@ -1,10 +1,10 @@
-# Database Seed Example
+# Populate Core Data Example
 
-This is an example Xcode project on how you can preseed your Core Data database in your iOS or OS X application.
+This is an example Xcode project on how you can populate your Core Data database in your iOS or OS X application.
 
 ## The case
 
-Sometimes you have a big amount of data that you want preseed in your Core Data database. This data can be fed by a webservice, an Excel file, ..., or whatever you want.
+Sometimes you have a big amount of data that you want fill your Core Data database with data from (for example a webservice or an Excel file).
 
 In order to do this I have setup a small example Xcode project. This project contains two targets:
 
@@ -13,17 +13,17 @@ In order to do this I have setup a small example Xcode project. This project con
 
 ### Command Line Tool
 
-The _Command Line Tool_ target is responsible for generating the seeded database. This tool will generate a sqlite file an move it to the correct location in your project.
+The _Command Line Tool_ target is responsible for generating the database. This tool will generate the sqlite file an move it to the correct location so your it will be added to your iOS target.
 
 ### iOS
 
-In the _Preloaded Database_ target you'll copy the seeded sqlite file to the correct location and prepares the Core Data setup with the help of MagicalRecord.
+In the _Preloaded Database_ target the populated sqlite file will be copied to the correct location and prepares the Core Data setup with the help of MagicalRecord.
 
 **MagicalRecord** is used because we want to reduce the amount of code.
 
 ## Setup
 
-Here is a small guideline on how to setup your project with the preseed Command Line Tool.
+Here is how to setup your project with the Command Line Tool.
 
 ## LICENSE
 

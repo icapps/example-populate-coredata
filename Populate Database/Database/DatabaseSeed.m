@@ -28,7 +28,7 @@
     // Prepare database.
     NSLog(@"💊 Importing database started.");
     NSFileManager* fileManager = [NSFileManager defaultManager];
-    NSString *path = [projectRoot stringByAppendingPathComponent:@"Preloaded Database/Database/Seed.sqlite"];
+    NSString *path = [projectRoot stringByAppendingPathComponent:@"Glider Application/Database/Seed.sqlite"];
     // Removing file if needed.
     if ([fileManager fileExistsAtPath:path]) {
         if ([fileManager removeItemAtPath:path error:nil]) {
