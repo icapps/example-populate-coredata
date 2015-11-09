@@ -13,9 +13,13 @@ In order to do this I have setup a small example Xcode project. This project con
 
 ### Command Line Tool
 
+Target name: **Populator**
+
 The _Command Line Tool_ target is responsible for generating the database. This tool will generate the sqlite file an move it to the correct location so your it will be added to your iOS target.
 
-### iOS
+### iOS application
+
+Target name: **Glider Application**
 
 In the _Preloaded Database_ target the populated sqlite file will be copied to the correct location and prepares the Core Data setup with the help of MagicalRecord.
 
@@ -34,6 +38,12 @@ Here is how to use it from your `AppDelegate`:
 ```
 [MagicalRecord setupSeededStackWithName:@"Store.sqlite"];
 ```
+
+### MagicalRecord+WAL.h
+
+Since iOS 7 and OS X Mavericks Core Data uses a Write-Ahead Logging journalling mechanism. This has the disavantage that when you create an sqlite preseeded database, that the data transations are saved to some _wal-files_. So when you copy the sqlite file, no data resides in it. Therefore we disabled the WAL journalling with this category.
+
+More info on this can be found in the [Mac documentation](https://developer.apple.com/library/mac/qa/qa1809/_index.html).
 
 ### DatabaseSeed.h
 
