@@ -19,11 +19,35 @@ The _Command Line Tool_ target is responsible for generating the database. This 
 
 In the _Preloaded Database_ target the populated sqlite file will be copied to the correct location and prepares the Core Data setup with the help of MagicalRecord.
 
-**MagicalRecord** is used because we want to reduce the amount of code.
+**MagicalRecord** is used because we want to reduce the amount of code in order to initialize and use Core Data.
 
-## Setup
+## Used files.
 
-Here is how to setup your project with the Command Line Tool.
+Here is some more information about the used files.
+
+### MagicalRecord+Seed.h
+
+Import this category in your AppDelegate. Your preseed database will be copied to the correct location. And you will be able to set a version for future updates. When you want to release a new version of the app with new preseed data, you just have to run the Command Line Tool and increase the `kCurrentSeedVersion` integer value. The rest will be handled for your.
+
+Here is how to use it from your `AppDelegate`:
+
+```
+[MagicalRecord setupSeededStackWithName:@"Store.sqlite"];
+```
+
+### DatabaseSeed.h
+
+The DatabaseSeed object will create the sqlite instance that will be used as the preseeded database. It provides a save block so you to handle the saving for you.
+
+```
+DatabaseSeed *seed = [DatabaseSeed new];
+[seed save:^(NSManagedObjectContext *localContext) {
+  ...
+}];
+[seed clean];
+```
+
+You just have to perform the importing (creation of your Core Data objects) inside the save block.
 
 ## LICENSE
 
