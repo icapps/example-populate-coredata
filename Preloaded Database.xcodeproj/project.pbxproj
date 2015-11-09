@@ -12,7 +12,6 @@
 		623A8ECC1BD14F0F00CB593E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB81BD14F0F00CB593E /* AppDelegate.m */; };
 		623A8ECD1BD14F0F00CB593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EB91BD14F0F00CB593E /* Assets.xcassets */; };
 		623A8ECE1BD14F0F00CB593E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */; };
-		623A8ECF1BD14F0F00CB593E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBD1BD14F0F00CB593E /* .gitignore */; };
 		623A8ED01BD14F0F00CB593E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBE1BD14F0F00CB593E /* Info.plist */; };
 		623A8ED11BD14F0F00CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EBF1BD14F0F00CB593E /* main.m */; };
 		623A8ED21BD14F0F00CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; };
@@ -28,6 +27,7 @@
 		623A8EE51BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; };
 		623A8EE61BD14F7300CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; };
 		623A8EE71BD14F7300CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; };
+		627DB1DB1BF14DDB00EFBACC /* Seed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 627DB1DA1BF14DDB00EFBACC /* Seed.sqlite */; };
 		A9819888B22BEBB70FA6BC49 /* libPods-Preloaded Database.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		623A8EB81BD14F0F00CB593E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		623A8EB91BD14F0F00CB593E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		623A8EBB1BD14F0F00CB593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		623A8EBD1BD14F0F00CB593E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		623A8EBE1BD14F0F00CB593E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		623A8EBF1BD14F0F00CB593E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		623A8EC11BD14F0F00CB593E /* _Glider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Glider.h; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
 		623A8EDE1BD14F4500CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
 		623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
+		627DB1DA1BF14DDB00EFBACC /* Seed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Seed.sqlite; sourceTree = "<group>"; };
 		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629080B21BC7B93B00501732 /* Populator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Populator; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D9C64B717FBB97921E58A /* Pods-Preloaded Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,9 +121,9 @@
 				623A8EB71BD14F0F00CB593E /* AppDelegate.h */,
 				623A8EB81BD14F0F00CB593E /* AppDelegate.m */,
 				623A8EB91BD14F0F00CB593E /* Assets.xcassets */,
-				623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */,
 				623A8EBC1BD14F0F00CB593E /* Database */,
 				623A8EBE1BD14F0F00CB593E /* Info.plist */,
+				623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */,
 				623A8EBF1BD14F0F00CB593E /* main.m */,
 				623A8EC01BD14F0F00CB593E /* Models */,
 				623A8EC71BD14F0F00CB593E /* Module */,
@@ -134,7 +134,7 @@
 		623A8EBC1BD14F0F00CB593E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				623A8EBD1BD14F0F00CB593E /* .gitignore */,
+				627DB1DA1BF14DDB00EFBACC /* Seed.sqlite */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -310,10 +310,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623A8ECF1BD14F0F00CB593E /* .gitignore in Resources */,
 				623A8ED01BD14F0F00CB593E /* Info.plist in Resources */,
 				623A8ECE1BD14F0F00CB593E /* LaunchScreen.storyboard in Resources */,
 				623A8ED51BD14F0F00CB593E /* Gliders.storyboard in Resources */,
+				627DB1DB1BF14DDB00EFBACC /* Seed.sqlite in Resources */,
 				623A8ECD1BD14F0F00CB593E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +512,7 @@
 			baseConfigurationReference = 736D9C64B717FBB97921E58A /* Pods-Preloaded Database.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Preloaded Database/Info.plist";
+				INFOPLIST_FILE = "Glider Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
 				PRODUCT_NAME = "Preloaded Database";
@@ -524,7 +524,7 @@
 			baseConfigurationReference = 858E55626843E17735B752C0 /* Pods-Preloaded Database.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Preloaded Database/Info.plist";
+				INFOPLIST_FILE = "Glider Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
 				PRODUCT_NAME = "Preloaded Database";
