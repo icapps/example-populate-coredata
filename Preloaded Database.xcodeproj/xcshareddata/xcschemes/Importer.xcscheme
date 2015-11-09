@@ -17,7 +17,7 @@
                BlueprintIdentifier = "629080B11BC7B93B00501732"
                BuildableName = "Populator"
                BlueprintName = "Populator"
-               ReferencedContainer = "container:Populate Core Data.xcodeproj">
+               ReferencedContainer = "container:Preloaded Database.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "629080B11BC7B93B00501732"
             BuildableName = "Populator"
             BlueprintName = "Populator"
-            ReferencedContainer = "container:Populate Core Data.xcodeproj">
+            ReferencedContainer = "container:Preloaded Database.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "629080B11BC7B93B00501732"
             BuildableName = "Populator"
             BlueprintName = "Populator"
-            ReferencedContainer = "container:Populate Core Data.xcodeproj">
+            ReferencedContainer = "container:Preloaded Database.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -84,7 +84,7 @@
             BlueprintIdentifier = "629080B11BC7B93B00501732"
             BuildableName = "Populator"
             BlueprintName = "Populator"
-            ReferencedContainer = "container:Populate Core Data.xcodeproj">
+            ReferencedContainer = "container:Preloaded Database.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

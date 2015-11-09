@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3C5974B425A7E9E517FC5113 /* libPods-Importer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDAC249EB94A692783AD1DC /* libPods-Importer.a */; };
-		623A8EB51BD14E4100CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB41BD14E4100CB593E /* main.m */; settings = {ASSET_TAGS = (); }; };
-		623A8ECC1BD14F0F00CB593E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB81BD14F0F00CB593E /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		623A8ECD1BD14F0F00CB593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EB91BD14F0F00CB593E /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		623A8ECE1BD14F0F00CB593E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		623A8ECF1BD14F0F00CB593E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBD1BD14F0F00CB593E /* .gitignore */; settings = {ASSET_TAGS = (); }; };
-		623A8ED01BD14F0F00CB593E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBE1BD14F0F00CB593E /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		623A8ED11BD14F0F00CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EBF1BD14F0F00CB593E /* main.m */; settings = {ASSET_TAGS = (); }; };
-		623A8ED21BD14F0F00CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
-		623A8ED31BD14F0F00CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; settings = {ASSET_TAGS = (); }; };
-		623A8ED41BD14F0F00CB593E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC51BD14F0F00CB593E /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		623A8ED51BD14F0F00CB593E /* Gliders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EC91BD14F0F00CB593E /* Gliders.storyboard */; settings = {ASSET_TAGS = (); }; };
-		623A8ED61BD14F0F00CB593E /* GlidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8ECB1BD14F0F00CB593E /* GlidersTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE01BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE11BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE21BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE31BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE41BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE51BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE61BD14F7300CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; settings = {ASSET_TAGS = (); }; };
-		623A8EE71BD14F7300CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; settings = {ASSET_TAGS = (); }; };
+		623A8EB51BD14E4100CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB41BD14E4100CB593E /* main.m */; };
+		623A8ECC1BD14F0F00CB593E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EB81BD14F0F00CB593E /* AppDelegate.m */; };
+		623A8ECD1BD14F0F00CB593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EB91BD14F0F00CB593E /* Assets.xcassets */; };
+		623A8ECE1BD14F0F00CB593E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBA1BD14F0F00CB593E /* LaunchScreen.storyboard */; };
+		623A8ECF1BD14F0F00CB593E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBD1BD14F0F00CB593E /* .gitignore */; };
+		623A8ED01BD14F0F00CB593E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EBE1BD14F0F00CB593E /* Info.plist */; };
+		623A8ED11BD14F0F00CB593E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EBF1BD14F0F00CB593E /* main.m */; };
+		623A8ED21BD14F0F00CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; };
+		623A8ED31BD14F0F00CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; };
+		623A8ED41BD14F0F00CB593E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC51BD14F0F00CB593E /* Model.xcdatamodeld */; };
+		623A8ED51BD14F0F00CB593E /* Gliders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A8EC91BD14F0F00CB593E /* Gliders.storyboard */; };
+		623A8ED61BD14F0F00CB593E /* GlidersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8ECB1BD14F0F00CB593E /* GlidersTableViewController.m */; };
+		623A8EE01BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */; };
+		623A8EE11BD14F4500CB593E /* MagicalRecord+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDA1BD14F4500CB593E /* MagicalRecord+Seed.m */; };
+		623A8EE21BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */; };
+		623A8EE31BD14F4500CB593E /* MagicalRecord+WAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */; };
+		623A8EE41BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; };
+		623A8EE51BD14F4500CB593E /* DatabaseSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */; };
+		623A8EE61BD14F7300CB593E /* _Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC21BD14F0F00CB593E /* _Glider.m */; };
+		623A8EE71BD14F7300CB593E /* Glider.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A8EC41BD14F0F00CB593E /* Glider.m */; };
 		A9819888B22BEBB70FA6BC49 /* libPods-Preloaded Database.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3329CD82F437B15383D6A9 /* libPods-Preloaded Database.a */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 		623A8EDC1BD14F4500CB593E /* MagicalRecord+WAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+WAL.m"; sourceTree = "<group>"; };
 		623A8EDE1BD14F4500CB593E /* DatabaseSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSeed.h; sourceTree = "<group>"; };
 		623A8EDF1BD14F4500CB593E /* DatabaseSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSeed.m; sourceTree = "<group>"; };
-		629080811BC7B4A400501732 /* Populate Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Populate Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629080811BC7B4A400501732 /* Preloaded Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preloaded Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629080B21BC7B93B00501732 /* Populator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Populator; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D9C64B717FBB97921E58A /* Pods-Preloaded Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.debug.xcconfig"; sourceTree = "<group>"; };
 		858E55626843E17735B752C0 /* Pods-Preloaded Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preloaded Database.release.xcconfig"; path = "Pods/Target Support Files/Pods-Preloaded Database/Pods-Preloaded Database.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,7 +213,7 @@
 		629080821BC7B4A400501732 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				629080811BC7B4A400501732 /* Populate Core Data.app */,
+				629080811BC7B4A400501732 /* Preloaded Database.app */,
 				629080B21BC7B93B00501732 /* Populator */,
 			);
 			name = Products;
@@ -247,7 +247,7 @@
 			);
 			name = "Glider Application";
 			productName = "Preloaded Database";
-			productReference = 629080811BC7B4A400501732 /* Populate Core Data.app */;
+			productReference = 629080811BC7B4A400501732 /* Preloaded Database.app */;
 			productType = "com.apple.product-type.application";
 		};
 		629080B11BC7B93B00501732 /* Populator */ = {
@@ -286,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Populate Core Data" */;
+			buildConfigurationList = 6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Preloaded Database" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -515,7 +515,7 @@
 				INFOPLIST_FILE = "Preloaded Database/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
-				PRODUCT_NAME = "Populate Core Data";
+				PRODUCT_NAME = "Preloaded Database";
 			};
 			name = Debug;
 		};
@@ -527,7 +527,7 @@
 				INFOPLIST_FILE = "Preloaded Database/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icapps.Preloaded-Database";
-				PRODUCT_NAME = "Populate Core Data";
+				PRODUCT_NAME = "Preloaded Database";
 			};
 			name = Release;
 		};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Populate Core Data" */ = {
+		6290807C1BC7B4A400501732 /* Build configuration list for PBXProject "Preloaded Database" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				629080961BC7B4A400501732 /* Debug */,

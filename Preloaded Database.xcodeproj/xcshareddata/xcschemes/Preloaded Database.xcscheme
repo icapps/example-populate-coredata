@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "629080801BC7B4A400501732"
-               BuildableName = "Populate Core Data.app"
+               BuildableName = "Preloaded Database.app"
                BlueprintName = "Glider Application"
-               ReferencedContainer = "container:Populate Core Data.xcodeproj">
+               ReferencedContainer = "container:Preloaded Database.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "629080801BC7B4A400501732"
-            BuildableName = "Populate Core Data.app"
+            BuildableName = "Preloaded Database.app"
             BlueprintName = "Glider Application"
-            ReferencedContainer = "container:Populate Core Data.xcodeproj">
+            ReferencedContainer = "container:Preloaded Database.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "629080801BC7B4A400501732"
-            BuildableName = "Populate Core Data.app"
+            BuildableName = "Preloaded Database.app"
             BlueprintName = "Glider Application"
-            ReferencedContainer = "container:Populate Core Data.xcodeproj">
+            ReferencedContainer = "container:Preloaded Database.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "629080801BC7B4A400501732"
-            BuildableName = "Populate Core Data.app"
+            BuildableName = "Preloaded Database.app"
             BlueprintName = "Glider Application"
-            ReferencedContainer = "container:Populate Core Data.xcodeproj">
+            ReferencedContainer = "container:Preloaded Database.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
