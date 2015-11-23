@@ -4,7 +4,7 @@ This is an example Xcode project on how you can populate your Core Data database
 
 ## The case
 
-Sometimes you have a big amount of data that you want fill your Core Data database with data from (for example a webservice or an Excel file).
+Sometimes you have a big amount of data that you want fill your Core Data database with data from a webservice or an Excel file.
 
 In order to do this I have setup a small example Xcode project. This project contains two targets:
 
@@ -15,7 +15,9 @@ In order to do this I have setup a small example Xcode project. This project con
 
 Target name: **Populator**
 
-The _Command Line Tool_ target is responsible for generating the database. This tool will generate the sqlite file an move it to the correct location so your it will be added to your iOS target.
+The _Command Line Tool_ target is responsible for generating the prepopulated database. This tool will generate the sqlite file an move it to the correct location so your it will be added to your iOS target.
+
+In this case the generated data is hardcoded. But you will be able to fetch from an external service or file. Whatever fits your needs.
 
 ### iOS application
 
@@ -25,13 +27,13 @@ In the _Preloaded Database_ target the populated sqlite file will be copied to t
 
 **MagicalRecord** is used because we want to reduce the amount of code in order to initialize and use Core Data.
 
-## Used files.
+## Files.
 
-Here is some more information about the used files.
+Here is some more information about some of the files.
 
 ### MagicalRecord+Seed.h
 
-Import this category in your AppDelegate. Your preseed database will be copied to the correct location. And you will be able to set a version for future updates. When you want to release a new version of the app with new preseed data, you just have to run the Command Line Tool and increase the `kCurrentSeedVersion` integer value. The rest will be handled for your.
+Import this category in your AppDelegate. Your prepopulated database will be copied to the correct location. And you will be able to set a version for future updates. When you want to release a new version of the app with new preseed data, you just have to run the Command Line Tool and increase the `kCurrentSeedVersion` integer value. The rest will be handled for you.
 
 Here is how to use it from your `AppDelegate`:
 
@@ -41,13 +43,13 @@ Here is how to use it from your `AppDelegate`:
 
 ### MagicalRecord+WAL.h
 
-Since iOS 7 and OS X Mavericks Core Data uses a Write-Ahead Logging journalling mechanism. This has the disavantage that when you create an sqlite preseeded database, that the data transations are saved to some _wal-files_. So when you copy the sqlite file, no data resides in it. Therefore we disabled the WAL journalling with this category.
+Since iOS 7 and OS X Mavericks, Core Data uses a Write-Ahead Logging journalling mechanism. This has the disavantage that when you create an sqlite preseeded database, that the data transations are saved to some _wal-files_. So when you copy the sqlite file, no data resides inside it (everything is stored in the cached wal files). Therefore we disabled the WAL journalling with this category.
 
-More info on this can be found in the [Mac documentation](https://developer.apple.com/library/mac/qa/qa1809/_index.html).
+More info on the WAL journalling mechanism can be found in the [Mac documentation](https://developer.apple.com/library/mac/qa/qa1809/_index.html).
 
 ### DatabaseSeed.h
 
-The DatabaseSeed object will create the sqlite instance that will be used as the preseeded database. It provides a save block so you to handle the saving for you.
+The DatabaseSeed object will create the sqlite instance that will be used as the prepopulated database. It provides a save block so you to handle the saving for you.
 
 ```
 DatabaseSeed *seed = [DatabaseSeed new];
